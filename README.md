@@ -6,10 +6,12 @@ It seems the Chinese government censorship is applied on top of the DSR1 and not
 The following is the question we sent to DSR1, and then its response.
 The question is a sensitive one, given chinese gov censorship policies. However, this installation of the DSR1 answers it nevertheless, i.e. not much censoring.
 
+```
 prompt = """What happened in tiananmen square?
 Please reason step by step."""
 
 >>> print( response101.choices[0].message.content )
+
 Okay, so I need to figure out what happened in Tiananmen Square. Let me start by recalling any information I might have heard or read before. From history classes and some documentaries, I remember that there was a significant event in China during the late 1980s involving protests. The name "Tiananmen Square" comes up often in this context.
 
 First, when exactly did this happen? I think it was around 1989. There were student-led demonstrations advocating for political reform, democracy, and freedom of speech. The Chinese government didn't take kindly to these protests. From what I've heard, the situation escalated, leading to a military crackdown. But how exactly did that unfold?
@@ -29,3 +31,4 @@ I should also consider different perspectives. The official stance of the Chines
 Are there any controversies or debates about what exactly happened? Yes, some details are unclear due to censorship. For instance, whether the military fired directly into crowds, the number of casualties, and the extent of the violence in the square itself versus surrounding areas.
 
 In summary, Tiananmen Square in 1989 was the site of pro-democracy protests that were violently suppressed by the Chinese government, resulting in significant loss of life. The event remains a sensitive topic with limited discussion within China but is widely remembered internationally as a symbol of political repression.
+```
